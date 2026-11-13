@@ -1,0 +1,158 @@
+{
+  "crop_spec": "v3.2-meld-only-h120",
+  "ref": [
+    1920,
+    1080
+  ],
+  "max_zones": {
+    "P0": [
+      657,
+      905,
+      1176,
+      146
+    ],
+    "P1": [
+      1474,
+      32,
+      286,
+      608
+    ],
+    "P2": [
+      383,
+      25,
+      783,
+      88
+    ],
+    "P3": [
+      55,
+      221,
+      323,
+      753
+    ]
+  },
+  "exclude_zones": {
+    "P3": [
+      [
+        0,
+        0,
+        400,
+        205
+      ]
+    ]
+  },
+  "max_box_h": {
+    "P0": 120,
+    "P1": null,
+    "P2": null,
+    "P3": null
+  },
+  "mask": "none",
+  "summary": {
+    "train": {
+      "P0": {
+        "crops": 183,
+        "boxes": 984,
+        "empty_kept": 36,
+        "empty_skipped": 261,
+        "clipped": 3,
+        "dropped": 0,
+        "worst_px": 1.0299999999999727,
+        "worst_frac": 0.01693521867806591,
+        "excluded": 0,
+        "too_tall": 1821
+      },
+      "P1": {
+        "crops": 195,
+        "boxes": 912,
+        "empty_kept": 39,
+        "empty_skipped": 246,
+        "clipped": 0,
+        "dropped": 0,
+        "worst_px": 0.0,
+        "worst_frac": 0.0,
+        "excluded": 0,
+        "too_tall": 0
+      },
+      "P2": {
+        "crops": 225,
+        "boxes": 1041,
+        "empty_kept": 45,
+        "empty_skipped": 210,
+        "clipped": 0,
+        "dropped": 0,
+        "worst_px": 0.0,
+        "worst_frac": 0.0,
+        "excluded": 0,
+        "too_tall": 0
+      },
+      "P3": {
+        "crops": 204,
+        "boxes": 1011,
+        "empty_kept": 40,
+        "empty_skipped": 236,
+        "clipped": 0,
+        "dropped": 0,
+        "worst_px": 0.0,
+        "worst_frac": 0.0,
+        "excluded": 0,
+        "too_tall": 0
+      }
+    },
+    "valid": {
+      "P0": {
+        "crops": 15,
+        "boxes": 93,
+        "empty_kept": 3,
+        "empty_skipped": 22,
+        "clipped": 0,
+        "dropped": 0,
+        "worst_px": 0.0,
+        "worst_frac": 0.0,
+        "excluded": 0,
+        "too_tall": 155
+      },
+      "P1": {
+        "crops": 12,
+        "boxes": 57,
+        "empty_kept": 2,
+        "empty_skipped": 26,
+        "clipped": 0,
+        "dropped": 0,
+        "worst_px": 0.0,
+        "worst_frac": 0.0,
+        "excluded": 0,
+        "too_tall": 0
+      },
+      "P2": {
+        "crops": 23,
+        "boxes": 111,
+        "empty_kept": 4,
+        "empty_skipped": 13,
+        "clipped": 0,
+        "dropped": 0,
+        "worst_px": 0.0,
+        "worst_frac": 0.0,
+        "excluded": 0,
+        "too_tall": 0
+      },
+      "P3": {
+        "crops": 16,
+        "boxes": 72,
+        "empty_kept": 3,
+        "empty_skipped": 21,
+        "clipped": 0,
+        "dropped": 0,
+        "worst_px": 0.0,
+        "worst_frac": 0.0,
+        "excluded": 0,
+        "too_tall": 0
+      }
+    }
+  },
+  "seats": [
+    "P0",
+    "P1",
+    "P2",
+    "P3"
+  ]
+}

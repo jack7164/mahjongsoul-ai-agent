@@ -1,0 +1,18 @@
+{
+  "save_video": true,
+  "show_preview": false,
+  "mortal": "docker",
+  "window_title": "雀魂",
+  "web_url": "https://game.maj-soul.com/1/",
+  "record_dir": "紀錄",
+  "bar_width": 1000,
+  "bar_alpha": 0.88,
+  "show_dots": true,
+  "show_second": true,
+  "hotkeys": {
+    "toggle_bar": "F8",
+    "toggle_dots": "F9",
+    "toggle_second": "F7"
+  },
+  "mortal_weights_url": ""
+}

@@ -1,0 +1,22 @@
+# 對局紀錄（錄影、牌譜，個人資料）
+紀錄/
+
+# 第一次執行時自動產生
+runtime/
+build/
+*.exe
+config.json.tmp
+
+# Python 快取
+__pycache__/
+*.pyc
+
+# Mortal 權重（約 130 MB，超過 GitHub 單檔上限）：放在 Release，由啟動器自動下載
+app/Model/mortal.pth
+*.part
+
+# Chrome 模式的設定備份（每台電腦不同）
+app/chrome_policy_backup.json
+
+# 每台電腦記住的遊戲視窗
+app/window.json

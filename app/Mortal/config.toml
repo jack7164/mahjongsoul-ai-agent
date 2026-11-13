@@ -1,0 +1,7 @@
+[control]
+state_file = "/mnt/mortal.pth"
+device = "cpu"
+
+[grp]
+state_file = "/mnt/mortal.pth"
+[grp.network]
